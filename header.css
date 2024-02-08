@@ -1,0 +1,30 @@
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+header ul{
+    display: flex;
+    gap: 1em;
+}
+
+.site-titleone{
+    color: purple;
+    font: 2em/1.2 'Times New Roman', Times, serif;
+}
+.titletwo{
+    color: black;
+    font: 0.5em / 1.0 Arial;
+    opacity: 0.8;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: black;
+}

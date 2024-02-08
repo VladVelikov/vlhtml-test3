@@ -1,0 +1,125 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    max-width: 70%;
+    display: flex;
+    gap: 2em;
+    margin: 2em auto;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.upper a{
+    display: inline-block;
+    padding:0.1em 0.8em;
+    background-color: whitesmoke;
+    color: rgb(20, 19, 19);
+    border: 1px solid grey;
+    border-radius: 0.3em;
+    align-self: flex-start;
+    margin-top: 1em;
+    text-decoration: none;
+}
+.upper-media{
+    width:5em;
+    
+}
+.upper-content{
+    max-width: 60%;
+    font-size: 0.8em;
+}
+.upper-title{
+    font-size: 1.8em;
+}
+
+.mid{
+    font: 1.3em / 0.8 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.lower{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2em;
+    justify-content: space-between;
+    margin-bottom: 3em;
+    
+}
+.card{
+    max-width: 28%;
+    text-align: center;
+}
+.card-media{
+    border: 1px solid blue;
+    border-radius: 7em;
+    overflow: hidden;
+    margin: 0 2em;
+}
+.card h3{
+    font-size: 0.8em;
+}
+.card p{
+    font-size: 0.8em;
+}
+
+.purple{
+    background-color: purple;
+    padding: 1em;
+    text-align: center;
+
+}
+#ptitle{
+    color: white;
+    font: 1.8em / 1 'Times New Roman', Times, serif;
+}
+#dashp{
+    color: rgb(22, 20, 20);
+    font: 3em /0.1 Lucida, sans-serif;
+    margin-bottom: 1rem;
+}
+.search-bar{
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+textarea{
+    width:15em;
+    height: 2em;
+    border-radius: 0.3em;
+}
+.button{
+    padding: 0.6em;
+    background-color: rgb(252, 252, 252);
+    color: black;
+    text-decoration: none;
+    font: 0.6em /1 Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 0.3em;
+}
+
+.lastcontent {
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 1em auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+.last header{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+.last header p{
+    font: 1.3em / 0.8 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
